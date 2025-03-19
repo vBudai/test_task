@@ -39,7 +39,7 @@ php bin/console doctrine:migrations:migrate
 # Описание API гостей
 
 ## Базовый url:
-```http
+```
 http://localhost:80
 ```
 
@@ -87,8 +87,8 @@ http://localhost:80
   "code": 400,
   "data": [
     {
-      'field': <field_name>,
-      "message": <error>
+      "field": "<field_name>",
+      "message": "<error>"
     }
   ]
 }
@@ -193,8 +193,8 @@ http://localhost:80
   "code": 400,
   "data": [
     {
-      "field": <field_name>,
-      "message": <error>
+      "field": "<field_name>",
+      "message": "<error>"
     }
   ]
 }
@@ -242,8 +242,8 @@ http://localhost:80
   "code": 400,
   "data": [
     {
-      "field": <field_name>,
-      "message": <error>
+      "field": "<field_name>",
+      "message": "<error>"
     }
   ]
 }
